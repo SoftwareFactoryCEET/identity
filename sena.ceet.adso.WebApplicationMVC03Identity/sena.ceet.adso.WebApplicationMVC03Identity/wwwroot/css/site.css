@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1 {
+    color: #0066cc; /* Azul para H1 */
+}
+
+h2 {
+    color: #0088cc; /* Azul para H2 */
+}
+
+h3 {
+    color: #0099cc; /* Azul para H3 */
+}
+
+h4 {
+    color: #00aacc; /* Azul para H4 */
+}
+
+h5 {
+    color: #00bbcc; /* Azul para H5 */
+}
+
+h6 {
+    color: #00ccdd; /* Azul para H6 */
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 10px; /* Tamaño de fuente para pantallas más grandes */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        font-size: 12px; /* Tamaño de fuente para pantallas aún más grandes */
+    }
+}
+
+
